@@ -23,13 +23,13 @@
         <li><a>About</a></li>
       </ul>
     </div>
-    <a class="btn btn-ghost text-xl">ThockyPedia</a>
+    <a class="btn btn-ghost text-xl" routerLink="/" routerLinkActive="active" ariaCurrentWhenActive="page">ThockyPedia</a>
   </div>
   <div class="navbar-center hidden lg:flex">
     <ul class="menu menu-horizontal px-1">
       <li><a>Discover</a></li>
       <li><a>Category</a></li>
-      <li><a>About</a></li>
+      <li><a routerLink="/about" routerLinkActive="active" ariaCurrentWhenActive="page">About</a></li>
     </ul>
   </div>
   <div class="navbar-end">
@@ -41,7 +41,7 @@
       <button class="btn btn-square btn-neutral">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          class="h-6 w-6"
+          class="h-5 w-5"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor">
