@@ -9,7 +9,7 @@ import { DetailComponent } from './detail/detail.component';
 export const routes: Routes = [
     {path: '', title: 'Home', component: HeroesComponent},
     {path: 'about', title:'About', component: AboutComponent},
-    {path: 'category', title:'Category', component: CategoryComponent},
+    // {path: 'category', title:'Category', component: CategoryComponent},
     {path: 'discovery', title:'Discovery', component: DiscoveryComponent},
     {path: 'detail', title:'Detail', component: DetailComponent}
 ];

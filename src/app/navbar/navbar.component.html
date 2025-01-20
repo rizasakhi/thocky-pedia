@@ -17,9 +17,19 @@
       </div>
       <ul
         tabindex="0"
-        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow z-50">
         <li><a routerLink="/discovery" routerLinkActive="active" ariaCurrentWhenActive="page" >Discover</a></li>
-        <li><a routerLink="/category" routerLinkActive="active" ariaCurrentWhenActive="page">Category</a></li>
+        <!-- <li><a routerLink="/category" routerLinkActive="active" ariaCurrentWhenActive="page">Category</a></li> -->
+        <li>
+          <details>
+            <summary>Category</summary>
+            <ul>
+              <li><a>Keyboard</a></li>
+              <li><a>Keycaps</a></li>
+              <li><a>Switch</a></li>
+            </ul>
+          </details>
+        </li>
         <li><a routerLink="/about" routerLinkActive="active" ariaCurrentWhenActive="page">About</a></li>
       </ul>
     </div>
@@ -28,7 +38,17 @@
   <div class="navbar-center hidden lg:flex">
     <ul class="menu menu-horizontal px-1">
       <li><a routerLink="/discovery" routerLinkActive="active" ariaCurrentWhenActive="page" >Discover</a></li>
-      <li><a routerLink="/category" routerLinkActive="active" ariaCurrentWhenActive="page">Category</a></li>
+      <!-- <li><a routerLink="/category" routerLinkActive="active" ariaCurrentWhenActive="page">Category</a></li> -->
+      <li>
+        <details>
+          <summary>Category</summary>
+          <ul>
+            <li><a>Keyboard</a></li>
+            <li><a>Keycaps</a></li>
+            <li><a>Switch</a></li>
+          </ul>
+        </details>
+      </li>
       <li><a routerLink="/about" routerLinkActive="active" ariaCurrentWhenActive="page">About</a></li>
     </ul>
   </div>
